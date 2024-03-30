@@ -3,6 +3,7 @@ import Alert from "./Components/Alert";
 import Button from "./Components/Button";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
+import "./App.css";
 
 function App() {
   const [alertVisible, setAlertVisibility] = useState(false);
