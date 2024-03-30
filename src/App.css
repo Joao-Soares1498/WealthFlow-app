@@ -16,6 +16,14 @@
   border-radius: 5px;
   border: 1px solid black;
 }
+
 .logo {
+  text-align: center;
+}
+
+.not-found {
+  display: block;
+  margin: 150px;
+  padding: 50px;
   text-align: center;
 }

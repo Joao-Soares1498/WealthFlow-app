@@ -2,7 +2,7 @@ import { useState } from "react";
 import Alert from "./Components/Alert";
 import Button from "./Components/Button";
 import Navbar from "./Components/Navbar";
-import Main from "./Components/Main";
+import Home from "./Components/Home";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <Main></Main>
+      <Home></Home>
 
       {/*
       {alertVisible && (

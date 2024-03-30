@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/your-logo-here-black.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
         to explore the app.
       </p>
       <div>
-        <button className="start-button"> Start</button>
+        <button className="start-button">
+          <Link to="/InitialInputs">Start</Link>
+        </button>
       </div>
     </div>
   );
